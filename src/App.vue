@@ -1,17 +1,17 @@
 <template>
 <!--  <img alt="Vue logo" src="./assets/logo.png" />-->
 <!--  <HelloWorld msg="Hello Vue 3.0 + Vite" />-->
-  <div>hi</div>
-  <frank></frank>
+  <div>导航栏
+    | <router-link to="/">Frank</router-link>
+    | <router-link to="/xxx">Frank2</router-link>
+  </div>
+  <hr/>
+  <router-view/>
 </template>
 
 <script>
-import frank from './components/Frank.vue'
 
 export default {
   name: 'App',
-  components: {
-    frank
-  }
 }
 </script>
