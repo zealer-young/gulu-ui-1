@@ -1,9 +1,8 @@
 <template>
   <div>
-    <Topnav></Topnav>
-    <div class="contain"
-         v-if="menuVisible">
-      <aside>
+    <Topnav/>
+    <div class="content">
+      <aside v-if="menuVisible">
         <h2>组件列表</h2>
         <ol>
           <li>
@@ -20,14 +19,15 @@
           </li>
         </ol>
       </aside>
-      <main>主内容</main>
+      <main>
+        <router-view/>
+      </main>
     </div>
   </div>
 </template>
 <script lang="ts">
-import {inject, Ref} from 'vue';
 import Topnav from '../components/Topnav.vue';
-
+import {inject, Ref} from 'vue';
 export default {
   components: {Topnav},
   setup() {
@@ -43,12 +43,14 @@ aside {
   width: 150px;
   padding: 16px;
 
-  h2 {
+  > h2 {
     margin-bottom: 4px;
   }
 
-  ol li {
-    padding: 4px 0;
+  > ol {
+    > li {
+      padding: 4px 0;
+    }
   }
 
   @media (max-width: 500px) {
