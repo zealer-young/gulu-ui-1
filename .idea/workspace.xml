@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90cd6aa5-74ac-44a4-be77-e6ee39a84a52" name="Default Changelist" comment="Switch css 1">
-      <change afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+    <list default="true" id="90cd6aa5-74ac-44a4-be77-e6ee39a84a52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708868092284</updated>
-      <workItem from="1708868093317" duration="2020000" />
+      <workItem from="1708868093317" duration="2465000" />
     </task>
     <task id="LOCAL-00001" summary="基本完成官网框架">
       <created>1708868223245</created>
@@ -50,7 +50,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708869032410</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Switch css 1">
+      <created>1708873416744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708873416744</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Switch css 1">
+      <created>1708873430435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708873430435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,18 +73,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本完成官网框架" />
     <MESSAGE value="锁死版本号" />
-    <option name="LAST_COMMIT_MESSAGE" value="锁死版本号" />
+    <MESSAGE value="Switch css 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch css 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="465" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1708869999325">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="465" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.790@0.25.1440.790" timestamp="1708869999325" />
-    <state x="0" y="25" width="1440" height="786" key="CommitChangelistDialog2" timestamp="1708873403390">
+    <state x="0" y="25" width="1440" height="786" key="CommitChangelistDialog2" timestamp="1708873430255">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="0" y="25" width="1440" height="786" key="CommitChangelistDialog2/0.25.1440.786@0.25.1440.786" timestamp="1708869032228" />
-    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1708873403390" />
+    <state x="0" y="25" key="CommitChangelistDialog2/0.25.1440.790@0.25.1440.790" timestamp="1708873430255" />
     <state width="1419" height="199" key="GridCell.Tab.0.bottom" timestamp="1708870371557">
       <screen x="0" y="25" width="1440" height="790" />
     </state>
@@ -87,9 +102,10 @@
       <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state width="1419" height="199" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1708870371557" />
-    <state x="320" y="142" key="Vcs.Push.Dialog.v2" timestamp="1708869034536">
-      <screen x="0" y="25" width="1440" height="786" />
+    <state x="320" y="143" key="Vcs.Push.Dialog.v2" timestamp="1708873435436">
+      <screen x="0" y="25" width="1440" height="790" />
     </state>
     <state x="320" y="142" key="Vcs.Push.Dialog.v2/0.25.1440.786@0.25.1440.786" timestamp="1708869034536" />
+    <state x="320" y="143" key="Vcs.Push.Dialog.v2/0.25.1440.790@0.25.1440.790" timestamp="1708873435436" />
   </component>
 </project>
