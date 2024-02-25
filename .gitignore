@@ -1,6 +1,8 @@
 node_modules
 .DS_Store
 dist
+.npmrc
+.cache
 
 .local
 # local env files
@@ -9,5 +11,6 @@ dist
 .eslintcache
 
 # Editor directories and files
-.idea
+**/.idea/
+**/.idea/workspace.xml
 .vscode
