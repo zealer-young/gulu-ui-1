@@ -12,8 +12,5 @@ export default {
   components: {
     Button
   },
-  setup() {
-
-  }
 }
 </script>
