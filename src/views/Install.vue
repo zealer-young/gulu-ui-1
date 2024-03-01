@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import md from '../mardown/install.md';
+import md from '../markdown/install.md';
 export default {
   data() {
     return {
