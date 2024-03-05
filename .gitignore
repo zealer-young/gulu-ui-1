@@ -5,6 +5,7 @@ dist
 .npmrc
 .cache
 /.history
+/.idea
 
 .local
 *.local
